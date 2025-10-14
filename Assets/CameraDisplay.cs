@@ -23,7 +23,7 @@ public class CameraDisplay : MonoBehaviour
         new Vector2Int(256, 144),   // True 144p
         new Vector2Int(640, 360),   // True 360p
         new Vector2Int(1280, 720),  // True 720p
-        new Vector2Int(1920, 1080)  // Full HD
+        new Vector2Int(2160, 2160)  // Full HD
     };
     
     // Track current resolution index
