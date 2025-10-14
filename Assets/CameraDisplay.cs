@@ -20,10 +20,11 @@ public class CameraDisplay : MonoBehaviour
     
     // Our resolution options with actual requested values
     private readonly Vector2Int[] m_resolutions = new[] {
-        new Vector2Int(256, 144),   // True 144p
-        new Vector2Int(640, 360),   // True 360p
-        new Vector2Int(1280, 720),  // True 720p
-        new Vector2Int(2160, 2160)  // Full HD
+        new Vector2Int(74, 74), // Full HD
+        new Vector2Int(144, 144),   // True 144p
+        new Vector2Int(360, 360),   // True 360p
+        new Vector2Int(480, 480)  // True 720p
+        
     };
     
     // Track current resolution index
